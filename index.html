@@ -33,7 +33,7 @@
       <p>Code by Trung Kien</p>
     </div>
     <div class="container">
-      <div class="header">
+      <div class="header" id="home">
         <div class="header-name">
           <h1>Hello,<span class="auto-input"></span></h1>
           <p>Front-End Developer</p>
@@ -44,17 +44,14 @@
             >
               Download CV
             </button>
-            <button
-              onclick="alert('will update in future..')"
-              class="btn btn-talk"
-            >
-              Let Talk
+            <button class="btn btn-talk" onclick="location.href='intro.html'">
+              Introdution
             </button>
           </div>
         </div>
         <div class="headerimg"></div>
       </div>
-      <div class="about">
+      <div class="about" id="about">
         <div class="plane1">
           <img src="./assets/plane1.png" alt="" />
         </div>
@@ -74,7 +71,7 @@
         </div>
       </div>
 
-      <div class="tech-skill">
+      <div class="tech-skill" id="techSkill">
         <h2>Technical Skill</h2>
         <div class="tech-skill-container">
           <div class="tech-skill-item">
@@ -103,7 +100,7 @@
           </div>
         </div>
       </div>
-      <div class="experiance">
+      <div class="experiance" id="experiance">
         <div class="plane2">
           <img src="./assets/plane3.png" width="500px" height="500px" alt="" />\
         </div>
@@ -139,9 +136,7 @@
             </div>
             <div class="ex-item">
               <div class="title">MINH PHU SOLUTIONS</div>
-              <p class="address">
-                39B Truong Son Street, Tan Binh District (Hai Au Building)
-              </p>
+              <p class="address">District 2</p>
               <p class="role">Intern Front-end Developer</p>
               <h3>Main responsibilities:</h3>
               <p class="text">- Search and Render data from database</p>
@@ -156,7 +151,7 @@
         </div>
       </div>
 
-      <div class="projects">
+      <div class="projects" id="projects">
         <h3>Projects</h3>
         <div class="project-list">
           <div class="project-item">
@@ -261,11 +256,24 @@
       <hr />
       <div class="footer">
         <h2>Thanks for Watching</h2>
-        <p>© 2022 coded by Trung Kien</p>
+        <p>Nguyen Trung Kien MSSV:DH52001423 D20-TH02</p>
+      </div>
+      <div class="nav-menu">
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        <a href="#about"><i class="fa-regular fa-user"></i></a>
+        <a href="#techSkill"><i class="fa-regular fa-clipboard"></i></a>
+        <a href="#experiance"><i class="fa-solid fa-laptop-code"></i></a>
+        <a href="#projects"><i class="fa-solid fa-folder"></i></a>
+        <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
       </div>
     </div>
+
     <script src="./index.js"></script>
   </body>
+  <script
+    src="https://kit.fontawesome.com/b1040cf0cc.js"
+    crossorigin="anonymous"
+  ></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
     let typed = new Typed(".auto-input", {

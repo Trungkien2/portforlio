@@ -73,7 +73,7 @@
 
 .about {
   display: flex;
-  margin-top: 50px;
+  margin-top: 200px;
   animation: moveInBottom 2s ease;
 }
 
@@ -375,4 +375,69 @@ hr {
   width: 1%;
   height: 10px;
   background-color: var(--color-text);
+}
+.nav-menu {
+  width: 326px;
+
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+
+  border-radius: 30px;
+  bottom: 1rem;
+  left: 50%;
+  overflow: hidden;
+  position: fixed;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  background: rgba(88, 88, 88, 0.4);
+  animation: fadeIn 2s ease-in-out;
+}
+.nav-menu a {
+  width: 23px;
+  height: 23px;
+  background: rgba(88, 88, 88, 0.4);
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.nav-menu a i {
+  font-size: 20px;
+  color: white;
+}
+
+.send-mail {
+  background: rgba(88, 88, 88, 0.4);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.send-mail h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.send-mail-input-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.send-mail-input-group p {
+  margin-bottom: 10px;
+  color: white;
+}
+.send-mail-input-group input {
+  width: 100%;
+  background: rgba(88, 88, 88, 0.4);
+  height: 30px;
+  color: var(--color-text);
+}
+.send-mail-input-group textarea {
+  width: 100%;
+  color: var(--color-text);
+  background: rgba(88, 88, 88, 0.4);
 }

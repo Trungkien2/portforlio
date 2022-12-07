@@ -16,7 +16,9 @@ body {
   background-image: url("../assets/background.webp");
   color: var(--color-text);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 h2 {
   font-size: 30px;
 }

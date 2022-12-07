@@ -50,5 +50,7 @@ const move = () => {
     }
   }
 };
-
-AOS.init();
+window.scrollTo({
+  top: 1000,
+  behavior: "auto" | "smooth",
+});
