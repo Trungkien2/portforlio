@@ -41,8 +41,27 @@
     </div>
     <div class="nav-menu">
       <a href="index.html"><i class="fa-solid fa-house"></i></a>
-    </div>
 
+      <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
+    </div>
     <script src="./index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b1040cf0cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const btn = document.getElementById("btnsend");
+      const name = document.getElementById("name");
+      const mail = document.getElementById("mail");
+      const message = document.getElementById("message");
+
+      const handleClick = () => {
+        console.log(name.value);
+        alert(
+          `Your name is ${name.value} and your mail is${mail.value} and your message ${message.value}`
+        );
+      };
+      btn.addEventListener("click", handleClick);
+    </script>
   </body>
 </html>
