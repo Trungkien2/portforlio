@@ -1,0 +1,109 @@
+#container
+        {
+            width: 920px;
+            background-image: url(images/bg.jpg);
+            margin: 0 auto;
+            padding: 10px 10px;
+        }
+        #bg
+        {
+            background-color: white;
+            margin: 0 auto;
+            padding: 7px 7px;
+        }
+        #header
+        {
+            background-image: url(images/header.jpg);
+            height: 240px;        
+        }
+        .topnav
+        {
+            background-color: #212226;
+            height: 51px;
+        }
+        .topnav a 
+        {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 40px;
+            text-decoration: none;
+            font-size: 17px;
+            color: white;
+            position: relative;
+            left: 175px;
+        }
+        .topnav a:hover 
+        {
+            background-color: #00C6FF;
+        }
+        #left
+        {
+            width: 200px;
+        }
+        #center
+        {
+	        float:left;
+	        margin-left:10px;
+        }
+        #center-1
+        {
+            line-height:50px;
+	        color:blueviolet;
+	        font-weight:bold;
+	        padding-left:400px;
+	        text-align: center;
+            font-size: medium;
+            position: relative;
+            left: 20px;
+        }
+        #hdt
+        {
+            background-color: #324203;
+            color: white;
+            text-align: left;
+            font-size: 17px;
+            height: 40px;
+            padding: 7px 0px 0px 10px;
+        }
+        #hdt-1
+        {
+            position: relative;
+            bottom: 35px;
+        }
+        #hdt-2
+        {
+            position: relative;
+            top: 10px;
+        }
+        .dt
+        {
+            background-image: url(images/menu_bg.jpg);
+            height: 40px;
+        }
+        .dt a
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+        .dt a:hover
+        {
+            background-color: #00C6FF;
+        }
+        #footer
+        {
+            height: 40px;
+            color: #999;
+        }
+        #footer-1
+        {
+            text-align: center;
+            background-color: #384d00;
+            height: 40px;
+            line-height:40px;
+        }
